@@ -98,7 +98,7 @@ else:
         logger.info('\n')
         #Create JSON Mapping
         o_source = str("qRadar-API")
-        o_node = str("SIEM")
+        o_node = str(['offense_source'])
         o_metric_name = str(rows['rules'][0]['id'])
         o_type = str(rows['rules'][0]['type'])
         o_resource = str(rows['id'])
